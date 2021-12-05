@@ -4,12 +4,13 @@
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
-  --ion-color-primary: #3880ff;
-  --ion-color-primary-rgb: 56, 128, 255;
+  --ion-color-primary: #770303;
+  --ion-color-primary-rgb: 119,3,3;
   --ion-color-primary-contrast: #ffffff;
-  --ion-color-primary-contrast-rgb: 255, 255, 255;
-  --ion-color-primary-shade: #3171e0;
-  --ion-color-primary-tint: #4c8dff;
+  --ion-color-primary-contrast-rgb: 255,255,255;
+  --ion-color-primary-shade: #690303;
+  --ion-color-primary-tint: #851c1c;
+
 
   /** secondary **/
   --ion-color-secondary: #3dc2ff;
@@ -74,6 +75,59 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  //color de youtube
+  --ion-color-youtube: #ff0011;
+  --ion-color-youtube-rgb: 255,0,17;
+  --ion-color-youtube-contrast: #ffffff;
+  --ion-color-youtube-contrast-rgb: 255,255,255;
+  --ion-color-youtube-shade: #e0000f;
+  --ion-color-youtube-tint: #ff1a29;
+
+
+  //color de facebook
+  --ion-color-facebook: #0147b7;
+  --ion-color-facebook-rgb: 1,71,183;
+  --ion-color-facebook-contrast: #ffffff;
+  --ion-color-facebook-contrast-rgb: 255,255,255;
+  --ion-color-facebook-shade: #013ea1;
+  --ion-color-facebook-tint: #1a59be;
+
+  
+  //color de twitter
+  --ion-color-twitter: #3dc2ff;
+  --ion-color-twitter-rgb: 61,194,255;
+  --ion-color-twitter-contrast: #ffffff;
+  --ion-color-twitter-contrast-rgb: 255,255,255;
+  --ion-color-twitter-shade: #36abe0;
+  --ion-color-twitter-tint: #50c8ff;
+
+  
+  //color de angular
+  --ion-color-angular: #ffffff;
+  --ion-color-angular-rgb: 255,255,255;
+  --ion-color-angular-contrast: #db0a0a;
+  --ion-color-angular-contrast-rgb: 219,10,10;
+  --ion-color-angular-shade: #e0e0e0;
+  --ion-color-angular-tint: #ffffff;
+
+  
+  //color de ionic
+  --ion-color-ionic: #000000;
+  --ion-color-ionic-rgb: 0,0,0;
+  --ion-color-ionic-contrast: #223491;
+  --ion-color-ionic-contrast-rgb: 34,52,145;
+  --ion-color-ionic-shade: #000000;
+  --ion-color-ionic-tint: #1a1a1a;
+
+
+  //color de instagram
+  --ion-color-instagram: #d31769;
+  --ion-color-instagram-rgb: 211,23,105;
+  --ion-color-instagram-contrast: #ffffff;
+  --ion-color-instagram-contrast-rgb: 255,255,255;
+  --ion-color-instagram-shade: #ba145c;
+  --ion-color-instagram-tint: #d72e78;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -83,12 +137,13 @@
    */
 
   body {
-    --ion-color-primary: #428cff;
-    --ion-color-primary-rgb: 66,140,255;
-    --ion-color-primary-contrast: #ffffff;
-    --ion-color-primary-contrast-rgb: 255,255,255;
-    --ion-color-primary-shade: #3a7be0;
-    --ion-color-primary-tint: #5598ff;
+    --ion-color-primary: #cc6666;
+    --ion-color-primary-rgb: 204,102,102;
+    --ion-color-primary-contrast: #000000;
+    --ion-color-primary-contrast-rgb: 0,0,0;
+    --ion-color-primary-shade: #b45a5a;
+    --ion-color-primary-tint: #d17575;
+
 
     --ion-color-secondary: #50c8ff;
     --ion-color-secondary-rgb: 80,200,255;
@@ -179,7 +234,7 @@
     --ion-color-step-900: #e6e6e6;
     --ion-color-step-950: #f2f2f2;
 
-    --ion-item-background: #000000;
+    --ion-item-background: transparent;
 
     --ion-card-background: #1c1c1d;
   }
@@ -225,7 +280,7 @@
     --ion-color-step-900: #e7e7e7;
     --ion-color-step-950: #f3f3f3;
 
-    --ion-item-background: #1e1e1e;
+    --ion-item-background: transparent;
 
     --ion-toolbar-background: #1f1f1f;
 
@@ -233,4 +288,68 @@
 
     --ion-card-background: #1e1e1e;
   }
+}
+
+//variable de color de yotube
+.ion-color-youtube {
+  --ion-color-base: var(--ion-color-youtube) !important;
+  --ion-color-base-rgb: var(--ion-color-youtube-rgb) !important;
+  --ion-color-contrast: var(--ion-color-youtube-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-youtube-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-youtube-shade) !important;
+  --ion-color-tint: var(--ion-color-youtube-tint) !important;
+}
+
+
+//variable de color de facebook
+.ion-color-facebook {
+  --ion-color-base: var(--ion-color-facebook) !important;
+  --ion-color-base-rgb: var(--ion-color-facebook-rgb) !important;
+  --ion-color-contrast: var(--ion-color-facebook-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-facebook-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-facebook-shade) !important;
+  --ion-color-tint: var(--ion-color-facebook-tint) !important;
+}
+
+
+//variable de color de twitter
+.ion-color-twitter {
+  --ion-color-base: var(--ion-color-twitter) !important;
+  --ion-color-base-rgb: var(--ion-color-twitter-rgb) !important;
+  --ion-color-contrast: var(--ion-color-twitter-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-twitter-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-twitter-shade) !important;
+  --ion-color-tint: var(--ion-color-twitter-tint) !important;
+}
+
+//variale de color de angular
+.ion-color-angular {
+  --ion-color-base: var(--ion-color-angular) !important;
+  --ion-color-base-rgb: var(--ion-color-angular-rgb) !important;
+  --ion-color-contrast: var(--ion-color-angular-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-angular-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-angular-shade) !important;
+  --ion-color-tint: var(--ion-color-angular-tint) !important;
+}
+
+
+//variable de color de ionic
+.ion-color-ionic {
+  --ion-color-base: var(--ion-color-ionic) !important;
+  --ion-color-base-rgb: var(--ion-color-ionic-rgb) !important;
+  --ion-color-contrast: var(--ion-color-ionic-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-ionic-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-ionic-shade) !important;
+  --ion-color-tint: var(--ion-color-ionic-tint) !important;
+}
+
+
+//variable de color de instagram
+.ion-color-instagram {
+  --ion-color-base: var(--ion-color-instagram) !important;
+  --ion-color-base-rgb: var(--ion-color-instagram-rgb) !important;
+  --ion-color-contrast: var(--ion-color-instagram-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-instagram-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-instagram-shade) !important;
+  --ion-color-tint: var(--ion-color-instagram-tint) !important;
 }
